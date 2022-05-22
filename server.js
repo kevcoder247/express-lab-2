@@ -9,7 +9,7 @@ app.get('/greeting/kevin', (req, res) => {
     res.send('Wow! Hello there, Jimmy boy')
 })
 
-//Tip Route
+//Tip Calulator Route
 app.get('/tip/:total/:tipPercentage', (req, res) => {
     console.log(req.params)
     let total = req.params.total;
